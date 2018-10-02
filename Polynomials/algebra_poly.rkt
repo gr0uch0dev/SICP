@@ -459,16 +459,14 @@
 
 ; gcd for polynomials
 
-;(div (make-poly 'x '((5 1) (0 -1)))
-;     (make-poly 'x '((2 1) (0 -1))))
-;excercise 2.94
+(div (make-poly 'x '((5 1) (0 -1)))
+     (make-poly 'x '((2 1) (0 -1))))
+
 (define p3 (make-poly 'x '((4 1) (3 -1) (2 -2) (1 2))))
 (define p4 (make-poly 'x '( (3 1) (1 -1))))
 
 
-;(gcd p3 p4) ;should be '(polynomial x ((2 -1) (1 1)))
-
-;excercise 2.95
+(gcd p3 p4) ;should be '(polynomial x ((2 -1) (1 1)))
 
 
 (define P1 (make-poly 'x '( (2 1) (1 -2) (0 1))))
